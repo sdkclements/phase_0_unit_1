@@ -6,7 +6,7 @@
 * Did you have an "aha" moments or were any concepts solidified?
 * Did you find any resources on your own that helped you better understand a topic? If so, please list it.
 
-<!-- Add your reflection here. Remove the comment markers -->
+ Add your reflection here. Remove the comment markers 
 that there is a difference between the internet and the world wide web. world wide web was built on top of the internet as a tool to utilize browsers and allow individuals to visit various sites rather than just transfer information via computer to computer.
 
 When setting up your HTML site, make sure you add you basic structure to the site, open and close all <>.

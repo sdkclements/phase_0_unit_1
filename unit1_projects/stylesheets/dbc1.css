@@ -1,0 +1,25 @@
+}
+
+
+/* CSS Syntax
+selector {
+	property: value;
+	property: value;
+} */
+      body {
+        background-color: #FFDB94;
+        width: 80%; 
+        }
+        
+      .header {
+        background-color:#996633;
+      }  
+        
+      .header h1 {
+        text-align: center;
+        color:  ;
+        
+      }
+      
+  
+}

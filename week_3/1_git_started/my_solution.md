@@ -3,42 +3,43 @@ Define the following commands and describe how they work/what they do.
 
 
 #### add
-<!-- Your defnition here -->
+Adds one or more files to the index
 
 #### branch
-<!-- Your defnition here -->
+Lits all the branches in the repository you are currently in, you can also change branches, delete branches and move branches.
 
 #### checkout
-<!-- Your defnition here -->
+leave current branch and Switch to a new branch
 
 #### clone
-<!-- Your defnition here -->
 
+Allows you to create a copy of local repository or branch
 #### commit
-<!-- Your defnition here -->
+Commits all the changes in you file to the head but does not sync them to all remote repositories only the local ones.
 
 #### fetch
-<!-- Your defnition here -->
+Takes the latest saved history from your server, this is needed if you want to return to an old version and drop local changes and commits.
 
 #### log
-<!-- Your defnition here -->
+Shows the log of Git and allows you to get the current GIT ID.
 
 #### merge
-<!-- Your defnition here -->
+merges a differnt branch into your active branch.
 
 #### pull
-<!-- Your defnition here -->
+takes changes from the remote server,(github website) and merges it to your working directory.
 
 #### push
-<!-- Your defnition here -->
+sends all your branches to the remote repository, like syncing up with the github site.
 
 #### reset
-<!-- Your defnition here -->
+drops all of the local changes and fetches the most recent history from the master branch on the remote server
 
 #### rm
-<!-- Your defnition here -->
+removes files from your current tree and from the index
 
 #### status
+tells you all of the files you have changed and those you still need to commit.
 
 
 ## Release 4: Git Workflow

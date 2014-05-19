@@ -1,8 +1,16 @@
-// I paired [by myself, with:] on this challenge.
+// I paired by myself on this challenge.
 
 
+// Challenge 1.1 DOM manipulation
+//Modify class a headers
+//Change class references
+//Add attributes inside <b> utilize chrome add attribute function
 
-
+//Challenge 1.2
+// change margin
+//change box-shadow color
+//add css declaration and update element.stle
+//add css underline and utilize hover state, watch it take effect
 // Pseudocode
 // 
 // 

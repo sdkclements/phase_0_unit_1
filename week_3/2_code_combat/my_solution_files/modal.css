@@ -1,0 +1,249 @@
+@font-face {
+  font-family: "OpenSansLight";
+  src: url(//d1740rtcumxhiu.cloudfront.net/assets/OpenSans-Light-webfont.eot);
+  src: url(//d1740rtcumxhiu.cloudfront.net/assets/OpenSans-Light-webfont.eot?#iefix) format("embedded-opentype"), url(//d1740rtcumxhiu.cloudfront.net/assets/OpenSans-Light-webfont.woff) format("woff"), url(//d1740rtcumxhiu.cloudfront.net/assets/OpenSans-Light-webfont.ttf) format("truetype"), url(//d1740rtcumxhiu.cloudfront.net/assets/OpenSans-Light-webfont.svg#OpenSansLight) format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSansRegular";
+  src: url(//d1740rtcumxhiu.cloudfront.net/assets/OpenSans-Regular-webfont.eot);
+  src: url(//d1740rtcumxhiu.cloudfront.net/assets/OpenSans-Regular-webfont.eot?#iefix) format("embedded-opentype"), url(//d1740rtcumxhiu.cloudfront.net/assets/OpenSans-Regular-webfont.woff) format("woff"), url(//d1740rtcumxhiu.cloudfront.net/assets/OpenSans-Regular-webfont.ttf) format("truetype"), url(//d1740rtcumxhiu.cloudfront.net/assets/OpenSans-Regular-webfont.svg#OpenSansRegular) format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSansRegular";
+  src: url(//d1740rtcumxhiu.cloudfront.net/assets/OpenSans-Bold-webfont.eot);
+  src: url(//d1740rtcumxhiu.cloudfront.net/assets/OpenSans-Bold-webfont.eot?#iefix) format("embedded-opentype"), url(//d1740rtcumxhiu.cloudfront.net/assets/OpenSans-Bold-webfont.woff) format("woff"), url(//d1740rtcumxhiu.cloudfront.net/assets/OpenSans-Bold-webfont.ttf) format("truetype"), url(//d1740rtcumxhiu.cloudfront.net/assets/OpenSans-Bold-webfont.svg#OpenSansBold) format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 13, ../../app/assets/stylesheets/modal.css.sass */
+.modal-backdrop {
+  background-color: #459be7;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  -webkit-transition: opacity 0.3s 2s linear;
+  transition: opacity 0.3s 2s linear;
+  top: 0;
+  z-index: 100;
+}
+/* line 23, ../../app/assets/stylesheets/modal.css.sass */
+.modal-backdrop.fade {
+  opacity: 0;
+}
+/* line 25, ../../app/assets/stylesheets/modal.css.sass */
+.modal-backdrop.fade.in {
+  opacity: 0.75;
+}
+
+/* line 30, ../../app/assets/stylesheets/modal.css.sass */
+.modal {
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  font-family: "OpenSansRegular", Helvetica, Arial, sans-serif;
+  left: 50%;
+  margin-left: -280px;
+  outline: none;
+  padding: 20px;
+  position: fixed;
+  text-align: center;
+  width: 560px;
+  z-index: 1000;
+}
+/* line 43, ../../app/assets/stylesheets/modal.css.sass */
+.modal.fade {
+  opacity: 0;
+  top: -25%;
+  -webkit-transition: opacity 0.3s linear;
+  transition: opacity 0.3s linear;
+  visibility: hidden;
+}
+/* line 49, ../../app/assets/stylesheets/modal.css.sass */
+.modal.fade.in {
+  opacity: 1;
+  top: 10%;
+  visibility: visible;
+}
+/* line 53, ../../app/assets/stylesheets/modal.css.sass */
+.modal h2 {
+  font-size: 3em;
+  font-weight: bold;
+}
+/* line 56, ../../app/assets/stylesheets/modal.css.sass */
+.modal .modal-title {
+  text-align: center;
+}
+/* line 58, ../../app/assets/stylesheets/modal.css.sass */
+.modal p {
+  font-size: 2em;
+  text-align: left;
+}
+/* line 61, ../../app/assets/stylesheets/modal.css.sass */
+.modal p.skip-install {
+  font-size: 1.4em;
+}
+/* line 63, ../../app/assets/stylesheets/modal.css.sass */
+.modal p a {
+  color: #459be7;
+  color: #1c82dd;
+}
+/* line 67, ../../app/assets/stylesheets/modal.css.sass */
+.modal p.disclaimer {
+  border: 1px solid #f2f2f2;
+  color: #777777;
+  font-size: 1.3em;
+  margin-top: 20px;
+  padding: 10px;
+  text-align: left;
+}
+/* line 74, ../../app/assets/stylesheets/modal.css.sass */
+.modal .btn {
+  background: #459be7;
+  color: white;
+  display: block;
+  font: bold 20px "OpenSansRegular", Helvetica, Arial, sans-serif;
+  margin: 30px 0;
+  padding: 12px 24px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  width: 50%;
+}
+/* line 85, ../../app/assets/stylesheets/modal.css.sass */
+.modal .btn:after {
+  background: url(//d1740rtcumxhiu.cloudfront.net/assets/cws.png) 0 0 no-repeat;
+  content: " ";
+  height: 61px;
+  position: absolute;
+  right: -230px;
+  top: -2px;
+  width: 200px;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dppx) {
+  /* line 85, ../../app/assets/stylesheets/modal.css.sass */
+  .modal .btn:after {
+    background-image: url(//d1740rtcumxhiu.cloudfront.net/assets/cws@2x.png);
+    background-size: 200px 60.5px;
+  }
+}
+/* line 96, ../../app/assets/stylesheets/modal.css.sass */
+.modal .btn:hover {
+  background-color: #1c82dd;
+  text-decoration: none;
+}
+/* line 99, ../../app/assets/stylesheets/modal.css.sass */
+.modal .next-video {
+  color: #459be7;
+}
+/* line 101, ../../app/assets/stylesheets/modal.css.sass */
+.modal .next-video:hover {
+  color: #1c82dd;
+}
+
+/* line 106, ../../app/assets/stylesheets/modal.css.sass */
+.video-modal {
+  bottom: auto;
+  height: auto;
+  left: 0;
+  opacity: 0;
+  overflow: hidden;
+  margin: 0 auto;
+  max-height: 600px;
+  max-width: 960px;
+  position: absolute;
+  right: 0;
+  top: 100px;
+  -webkit-transition: top 0.2s 0s ease-in-out, opacity 0.2s 0s ease-in-out, visibility 0.2s 0s ease-in-out;
+  transition: top 0.2s 0s ease-in-out, opacity 0.2s 0s ease-in-out, visibility 0.2s 0s ease-in-out;
+  visibility: hidden;
+  width: 100%;
+  z-index: 12;
+}
+/* line 123, ../../app/assets/stylesheets/modal.css.sass */
+.video-modal video {
+  height: auto;
+  width: 100%;
+}
+
+/* line 129, ../../app/assets/stylesheets/modal.css.sass */
+.video-close {
+  background: white;
+  box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  color: #edb330;
+  display: block;
+  font: bold 3em "OpenSansRegular", Helvetica, Arial, sans-serif;
+  height: 0;
+  line-height: 34px;
+  overflow: hidden;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  top: 20px;
+  -webkit-transition: box-shadow 0.2s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out;
+  visibility: hidden;
+  right: 20px;
+  width: 40px;
+  z-index: 13;
+}
+/* line 149, ../../app/assets/stylesheets/modal.css.sass */
+.video-close:hover {
+  box-shadow: 0 0 0 8px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+}
+
+/* line 155, ../../app/assets/stylesheets/modal.css.sass */
+.video-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #459be7;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  -webkit-transition: opacity 0.4s 0s ease-in-out, visibility 0.2s 0s ease-in-out;
+  transition: opacity 0.4s 0s ease-in-out, visibility 0.2s 0s ease-in-out;
+  visibility: hidden;
+  z-index: 11;
+}
+
+/* line 169, ../../app/assets/stylesheets/modal.css.sass */
+.is-video-playing .video-modal,
+.is-video-playing .video-overlay,
+.is-video-playing .video-close {
+  height: auto;
+  overflow: visible;
+  visibility: visible;
+}
+/* line 175, ../../app/assets/stylesheets/modal.css.sass */
+.is-video-playing .video-modal,
+.is-video-playing .video-close {
+  opacity: 1;
+}
+/* line 178, ../../app/assets/stylesheets/modal.css.sass */
+.is-video-playing .video-modal {
+  top: 40px;
+  -webkit-transition: top 0.2s 0.5s ease-in-out, opacity 0.2s 0.5s ease-in-out, visibility 0.2s 0.5s ease-in-out;
+  transition: top 0.2s 0.5s ease-in-out, opacity 0.2s 0.5s ease-in-out, visibility 0.2s 0.5s ease-in-out;
+}
+/* line 182, ../../app/assets/stylesheets/modal.css.sass */
+.is-video-playing .video-overlay {
+  opacity: 0.75;
+  -webkit-transition: opacity 0.4s 0.2s ease-in-out, visibility 0.2s 0.2s ease-in-out;
+  transition: opacity 0.4s 0.2s ease-in-out, visibility 0.2s 0.2s ease-in-out;
+}
+/* line 186, ../../app/assets/stylesheets/modal.css.sass */
+.is-video-playing .video-close {
+  height: 40px;
+}

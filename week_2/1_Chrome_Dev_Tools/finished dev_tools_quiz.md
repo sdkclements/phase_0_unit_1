@@ -25,6 +25,6 @@
   * What is the largest image on the website? IF we are talking about specifically an image it is the logo on the top left.
   * Explain how you would find out this information, and list the URL of offending image here and how big it is.
  This is the location in the DOM <img id="ctl00_LogoArea_tm_SitefinityImage1" src="/App_Themes/PXS_Demo/Images/logo.png" alt="Company Logo" style="border-width:0px;">
- http://www.ticketswizard.com/App_Themes/PXS_Demo/Images/logo.png thats the link to the image.
+ http://www.ticketswizard.com/App_Themes/PXS_Demo/Images/logo.png THIS IS LINK TO IMAGE
 
-* Test the www.ticketswizard.com website with google's [PageSpeed Insights](http://www.ticketswizard.com/).  (You can also download the chrome plugin).  What is the lowest hanging fruit to optimize the website?  How many kilobytes of data can be eliminated?
+* Test the www.ticketswizard.com website with google's [PageSpeed Insights](http://www.ticketswizard.com/).  (You can also download the chrome plugin).  What is the lowest hanging fruit to optimize the website?  How many kilobytes of data can be eliminated? 885.9KiB could be eliminated thru optimization

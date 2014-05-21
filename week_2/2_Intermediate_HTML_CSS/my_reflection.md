@@ -1,8 +1,9 @@
 # U1.W2: Intermediate HTML and CSS Reflection
 
-* What do you think about web standards? Are they good or bad?
-* Does the standard structure make sense to you? Why or why not?
+* What do you think about web standards? Are they good or bad? Web Standards are neither good or bad. They are a baseline that is usefull to revert to incase of an emergency. The CSS standards are boring and make some stuff difficult to read. Modifying and creating your own style can allow for a much cleaner and easier to read webpage.
+* Does the standard structure make sense to you? Why or why not? For the most part standard html and css follow a similar format. HTML contains all of the elements and css styles these elements. Standard CSS resets all of the styles to the most basic.
 * Do you like the new HTML5 elements, such as `<header>`, `footer`, and `nav`? Why or why not?
-* Why is reset.css necessary? 
-* What browsers have you used? Did you ever notice that sites looked different in different browsers? Do you think it's good or bad that they do?
+The new HTML5 elements allow for greater control. I especially think that the nav element is particularly useful. It works in a roundabout fashion in that it takes higher importance from internal elements rather than higher up elements. Furthermore it allows heading styles to be less restrictive.
+* Why is reset.css necessary? BEcause it creates a baseline for all styles. A place to revert to.
+* What browsers have you used? Did you ever notice that sites looked different in different browsers? Do you think it's good or bad that they do? Firefox/Chrome/IE/Safari/Puffin. Most sites work basically the same but differnt browsers interpret the data slightly differntly and have differnt base settings. This difference will lead to increased or decreased expected shifts in the style and view of the page.
 * Did you find any resources on your own that helped you better understand a topic? If so, please list it.

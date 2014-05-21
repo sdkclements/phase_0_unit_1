@@ -100,7 +100,16 @@ def north_korean_cipher(coded_message)
             "c" => "y",             
             "d" => "z"}   
             
-   
+     cipher_korean = ("e".."z").to_a + ("a".."d").to_a   # ["e","f","g"..."d"]     
+     
+    decoded = []
+                                                                     # go back 4 letters
+     cipher_korean.each do |char|
+           cipher_english = cipher_korean[cipher_korean.each_index { |char| (char - 4) } ]
+           decoded << cipher_english
+     end
+     
+     p decoded
       
   input.each do |x| # each is iterating through characters in the input array
     found_match = false  # Why would this be assigned to false from the outset? What happens when it's true? Because if the match is found than the cipher is not working
@@ -141,4 +150,4 @@ p north_korean_cipher("mj^csy&qeoi^sri*qmwxeoi,%kir.*vm@csrk-kmp,&csy^ampp*fi&vi
 p north_korean_cipher("ribx^wxst:$wsyxl%osvie,$xlir$neter,#xlir%xli%asvph!")
 p north_korean_cipher("ger^wsqifshc*nywx^kix^qi&10000*fekw@sj$gssp%vergl@hsvmxsw?")
 
-# Reflection:
+# Reflection

@@ -1,4 +1,5 @@
 #### Include an inline screenshot of your codeschool's points from the profile page:
+screenshot addresss: http://i.imgur.com/yPW2XFg.png
 
 <!-- Modify the Markdown to include your answers. Don't delete the questions! -->
 
